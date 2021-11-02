@@ -1,0 +1,57 @@
+@media (max-width: 84em) {
+  h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+  }
+}
+
+/* Below 1200px landscape tablet*/
+@media (max-width: 75em) {
+  html {
+    font-size: 69%;
+  }
+  h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+  }
+}
+
+/* Below 940px normal tablet*/
+@media (max-width: 59em) {
+  html {
+    font-size: 75%;
+  }
+}
+/* 600 px break point*/
+@media (max-width: 44em) {
+  html {
+    font-size: 85%;
+  }
+}
+/* Next Break pint 550 px small phones */
+
+@media (max-width: 34em) {
+  html {
+    font-size: 40%;
+  }
+  .btn {
+    background-color: #9f68e0;
+    color: white;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    padding: 1.4rem 4rem;
+    font-size: 2.6rem;
+    cursor: pointer;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn:focus {
+    outline: 0;
+  }
+}
